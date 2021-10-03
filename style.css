@@ -1,0 +1,14 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* suggested order */
+a { }
+a:link { }
+a:visited { }
+a:hover { }
+a:focus { }
+a:active { }
+/* . {} */
+
