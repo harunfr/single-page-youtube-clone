@@ -5,8 +5,82 @@
     <link rel="shortcut icon" href="#" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic Youtube Clone</title>
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <div class="left-nav">
+        <div class="sandwich-menu"><i class="fas fa-bars"></i></div>
+        <div class="logo">
+          <i class="fab fa-youtube">Youtube</i>
+        </div>
+      </div>
+      <div class="middle-nav">
+        <form class="search-bar">
+          <input class="search-input" type="text" value="" placeholder="Search" />
+          <i class="fas fa-search"></i>
+        </form>
+        <i class="fas fa-microphone"></i>
+      </div>
+      <div class="right-nav">
+        <i class="fas fa-video"></i>
+        <i class="fas fa-ellipsis-v"></i>
+        <i class="fas fa-bell"></i>
+        <i class="profile">H</i>
+      </div>
+    </nav>
+    <main>
+      <video></video>
+      <h1 class="title"></h1>
+      <div class="info">
+        <div class="left-info">
+          <div class="views"></div>
+          <div class="date"></div>
+        </div>
+        <div class="right-info">
+          <div class="like-icon"></div>
+          <div class="dislike-icon"></div>
+          <div class="share-icon"></div>
+          <div class="save-icon"></div>
+          <div class="more-info"></div>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="profile-photo"></div>
+        <div class="profile-name"></div>
+        <div class="profile-subscribe"></div>
+      </div>
+      <div class="description">
+        <p></p>
+      </div>
+      <div class="comments-header">
+        <div class="comment-count"></div>
+        <div class="sort-icon"></div>
+        <div class="sort-by"></div>
+      </div>
+      <div class="write-comment">
+        <div class="user-profile-photo"></div>
+        <form>
+          <input type="text" name="" id="" />
+        </form>
+      </div>
+      <div class="puclic-comments">
+        <!-- single comment start -->
+        <div class="public-profile-picture"></div>
+        <div class="comment-body">
+          <div class="public-name-and-date"></div>
+          <div class="comment-text"></div>
+          <div class="like-dislike-reply"></div>
+          <div class="view-other-replies"></div>
+        </div>
+        <!-- single comment end -->
+      </div>
+    </main>
+    <div class="sidebar"></div>
+  </body>
 </html>

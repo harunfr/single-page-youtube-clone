@@ -3,12 +3,77 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* suggested order */
-a { }
-a:link { }
-a:visited { }
-a:hover { }
-a:focus { }
-a:active { }
-/* . {} */
 
+/* . {} */
+i {
+  cursor: pointer;
+}
+html {
+  width: 100vw;
+}
+body {
+  width: 100%;
+  display: flex;
+}
+nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 56px;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.sandwich-menu {
+  padding: 0 20px;
+}
+
+.left-nav,
+.middle-nav,
+.right-nav {
+  display: flex;
+  padding: 0 50px;
+}
+
+.left-nav > *,
+.middle-nav > *,
+.right-nav > * {
+  padding: 0 15px;
+}
+.search-bar {
+  border: 1px solid black;
+  width: 450px;
+  height: 30px;
+}
+.search-input {
+  width: 90%;
+  border: none;
+  margin-right: 0;
+  outline: none;
+}
+.fa-search {
+  border: 1px solid black;
+  padding: 6px;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.fa-microphone{
+  font-size: 22px;
+  padding-top: 2px;
+  margin-left: 5px;
+}
+
+main {
+  width: 67vw;
+  margin-top: 56px;
+  border: 3px solid green;
+}
+.sidebar {
+  border: 3px solid blue;
+  width: 33vw;
+  margin-top: 56px;
+}
