@@ -1,6 +1,6 @@
 # YouTube Single Page Clone
 
-This application can be seen [Live](<live link here>).
+This application can be seen [Live](https://harunfr.github.io/single-page-youtube-clone/).
 
 This project bootstrapped with create-react-app
 
@@ -10,7 +10,7 @@ This project bootstrapped with create-react-app
 
 ### What did I use to implement this app:
 
-* I used [YouTube api](<youtube api link here>) to get related comments and videos.
+* I used [YouTube api](https://developers.google.com/youtube/v3/getting-started) to get related comments and videos.
 
 * I found button with ripple effect similar to subscribe as expected at mui.
 
@@ -34,4 +34,4 @@ Runs the app in the development mode.
 Open http://localhost:3000 to view it in your browser.
 
 One liner to see the project live in development mode and view codes at the same time:
-### `git clone <git link here> && cd <file address> && code . && yarn start || npm start`
+### `git clone git@github.com:harunfr/single-page-youtube-clone.git && cd single-page-youtube-clone/ && code . && yarn || npm install &&  yarn start || npm start`
