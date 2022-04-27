@@ -15,7 +15,7 @@ This project bootstrapped with create-react-app
 * I found button with ripple effect similar to subscribe as expected at mui.
 
 
-### This updates is still needed to improve appearance and functionality of page:
+### These updates is still needed to improve appearance and functionality of page:
 * Favicon.ico needs to be changed to a suitable one.
 * Links should be added to channel and video names.
 * Uploader profile picture and name, also video datas like name like amount -
