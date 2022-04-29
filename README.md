@@ -34,4 +34,4 @@ Runs the app in the development mode.
 Open http://localhost:3000 to view it in your browser.
 
 One liner to see the project live in development mode and view codes at the same time:
-### `git clone git@github.com:harunfr/single-page-youtube-clone.git && cd single-page-youtube-clone/ && code . && yarn || npm install &&  yarn start || npm start`
+### `git clone git@github.com:harunfr/single-page-youtube-clone.git && cd single-page-youtube-clone/ && code . && yarn &&  yarn start`
