@@ -1,9 +1,7 @@
 import React from 'react';
 
 import {
-
   Container, Wrapper, Text, ThumbnailWrapper,
-
 } from './styles';
 
 export interface Props {
